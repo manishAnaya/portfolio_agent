@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+
+# Vector Database
+my_db/
+chroma_db/
+
+# API Keys - NEVER push this!
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/

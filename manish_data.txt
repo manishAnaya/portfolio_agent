@@ -1,0 +1,116 @@
+MANISH KUMAR AGRAHARI - PORTFOLIO DATA
+
+PERSONAL INFO:
+Name: Manish Kumar Agrahari
+Title: Flutter Developer, Exploring AI and GenAI
+Email: manish.ag555@gmail.com
+Phone: +91 70070 33600
+Location: Bengaluru, Karnataka, India
+LinkedIn: linkedin.com/in/manish-kumar-agrahari-18361a177
+GitHub: github.com/manishAnaya
+Portfolio: manish-portfolio-lake-delta.vercel.app
+Experience: 5+ years
+Apps Shipped: 10+ production apps
+Companies Worked: 3
+
+ABOUT:
+Manish Kumar Agrahari is a Flutter developer with 5+ years of experience shipping cross-platform mobile applications across fintech, edtech, e-commerce, and enterprise domains. He is currently building AI-powered products at Finva Tech Pvt Ltd in Bengaluru and actively upskilling in Generative AI with certifications from GUVI, Scaler, and OutSkill. Manish cares deeply about clean architecture, great user experience, and writing code that scales.
+
+SKILLS:
+Mobile Development: Flutter, Dart, Android, iOS, Cross-Platform Development
+State Management: Riverpod, Provider, BLoC, GetX
+Architecture: Clean Architecture, MVVM, Repository Pattern
+Backend and APIs: REST APIs, Token-based Auth, Third-party API Integration
+Database: Firebase, MySQL, Firestore, Local Storage
+UI/UX: Material Design, Custom Animations, Pixel-perfect UI, Figma
+AI and GenAI Learning: LangChain, RAG, AI Agents, LangGraph, Generative AI, LLMs
+Tools: Git, GitHub, Vercel, CI/CD, Google Play Store, App Store
+Soft Skills: Team Leadership, Mentoring, Communication, Problem Solving
+
+WORK EXPERIENCE:
+
+Company 1: Finva Tech Pvt Ltd
+Role: Senior Flutter Developer / Software Engineer
+Duration: March 2024 to Present
+Location: Bengaluru, Karnataka, On-site
+Current Job: Yes
+Responsibilities:
+- Built and shipped an AI-powered chatbot platform with Flutter and REST API with workspace management, custom prompt configuration, and citation fetching.
+- Delivered a fully configurable portfolio and risk management system for asset managers and hedge funds supporting MiFID, FINMA, and UCITS compliance.
+- Translated complex UI/UX wireframes into pixel-perfect responsive Flutter interfaces for Android and iOS.
+- Integrated token-based auth, secure API layers, and dark mode with smooth animations.
+- Collaborated directly with backend and AI engineers to wire frontend components to evolving APIs.
+- Contributed to architectural decisions to ensure scalability, security, and maintainability.
+- Mentored junior developers and provided technical guidance on Flutter best practices and clean architecture.
+
+Company 2: Act T Connect
+Role: Flutter Developer
+Duration: July 2022 to March 2024
+Location: Jhansi, Uttar Pradesh, On-site
+Responsibilities:
+- Designed and launched 8+ production apps on Google Play Store across e-commerce, edtech, recruitment, and HR domains.
+- Built a vehicle auto-parts marketplace with make/model/year-based search and in-app checkout.
+- Delivered a geo-based tutor discovery platform connecting students with nearby educators.
+- Shipped a recruitment app with job discovery, resume upload, application tracking, and career analytics.
+- Developed a jewelry e-commerce app with product collections and secure payments.
+- Built an HR and payroll management app with attendance tracking and real-time location sharing.
+
+Company 3: IBigDo Technologies
+Role: Junior Flutter Developer
+Duration: August 2020 to June 2022
+Location: Noida, Uttar Pradesh, On-site
+Responsibilities:
+- Contributed to development of cross-platform mobile applications using Flutter and Dart.
+- Collaborated with technical and design teams to translate requirements into working features.
+- Integrated third-party REST APIs for real-time data retrieval.
+- Wrote clean modular Dart code following team conventions.
+
+PROJECTS:
+
+Project 1: AI Chatbot Platform
+Status: Featured Project
+Description: An enterprise-grade AI chatbot app with multi-workspace support, customizable prompts, conversation history, and source citation fetching. Built with Flutter, integrated with AI APIs, token-based auth, and full dark mode support.
+Tech Stack: Flutter, Dart, REST API, AI Integration, Riverpod, Token Auth
+Play Store: play.google.com/store/apps/details?id=com.finvatech.chatbot
+App Store: apps.apple.com/in/app/cubebot-pro/id6593685926
+
+Project 2: Portfolio and Risk Management System
+Status: Featured Project
+Description: A configurable fintech app for asset managers, hedge funds, and family offices. Features real-time portfolio tracking, order management, risk analytics, MiFID/FINMA/UCITS compliance workflows.
+Tech Stack: Flutter, Dart, Fintech, REST API, Riverpod, Data Visualization
+Play Store: play.google.com/store/apps/details?id=com.finvatech.cubepms
+
+Project 3: Recruitment and Career Platform
+Status: Featured Project
+Description: A job and internship discovery app with resume upload, one-tap applications and personalized career analytics. Rated 4.8 stars with 100+ downloads.
+Tech Stack: Flutter, Dart, REST API, Firebase, GetX
+Play Store: play.google.com/store/apps/details?id=com.atc.spires_app
+
+Project 4: HR and Payroll Management App
+Description: An employee management platform with real-time attendance tracking, location sharing, payroll processing, and HR workflows.
+Tech Stack: Flutter, Dart, REST API, GPS, Firebase
+Play Store: play.google.com/store/apps/details?id=com.atc.pinghr
+
+Project 5: EdTech Tutor Discovery Platform
+Description: A geo-based platform bridging students and local educators. Students discover tutors by subject and location with ratings and reviews.
+Tech Stack: Flutter, Dart, REST API, Google Maps, Firebase
+Play Store: play.google.com/store/apps/details?id=com.atc.edunear
+
+Project 6: Auto Parts E-Commerce App
+Description: A shopping app for automotive enthusiasts supporting vehicle-specific part search by make, model, and year with secure in-app checkout.
+Tech Stack: Flutter, Dart, REST API, Razorpay, Firebase
+Play Store: play.google.com/store/apps/details?id=com.atc.newkaka
+
+EDUCATION:
+Degree 1: Bachelor of Technology (B.Tech), SHIATS Prayagraj, Year 2015, Score 80%
+Degree 2: Intermediate 12th, DALIMSS Varanasi, Year 2011, Score 67%
+Degree 3: High School 10th, Swamy Satyanand SHS Vidyalaya Obra, Year 2009, Score 73%
+
+AI CERTIFICATIONS:
+1. Generative AI Certification from GUVI - Completed
+2. AI/ML Course from Scaler - Completed
+3. AI Engineering from OutSkill - Completed
+4. GenAI for Developers (LangChain, RAG, Agents) - In Progress
+
+OPEN TO WORK:
+Manish is open to exciting Flutter development opportunities especially roles involving AI-powered mobile applications. He is interested in combining Flutter expertise with Generative AI knowledge. He is also open to freelance collaborations, technical mentoring, and contributing to innovative startups in fintech, edtech, or AI space.
