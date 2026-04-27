@@ -3,7 +3,7 @@ import os
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_cohere import CohereEmbeddings
 from langchain_chroma import Chroma
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -17,7 +17,8 @@ app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 print("🧠 Loading embeddings...")
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+embeddings = CohereEmbeddings(model="embed-english-light-v3.0", cohere_api_key=os.getenv("COHERE_API_KEY")
+)
 
 print("💾 Loading Vector DB...")
 if(os.path.exists("./my_db")):  
