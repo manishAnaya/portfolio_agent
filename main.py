@@ -94,10 +94,11 @@ async def ask(body: Question):
 
     # Keep only last 6 messages
     conversation_sessions[body.session_id] = history[-6:]
-
+    print(conversation_sessions)
     return {
         "status": "success",
-        "answer": response.content
+        "answer": response.content,
+        "memory_size": len(conversation_sessions[body.session_id])
     }
 
 @app.delete("/clear/{session_id}")
