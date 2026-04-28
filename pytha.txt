@@ -1,0 +1,31 @@
+pythagorean Theorem
+
+The Pythagorean Theorem is a basic rule in geometry that applies to right-angled triangles (a triangle with one 90° angle).
+
+It states:
+
+In a right-angled triangle, the square of the longest side (called the hypotenuse) is equal to the sum of the squares of the other two sides.
+
+Formula:
+a² + b² = c²
+
+Where:
+
+a and b = shorter sides
+c = hypotenuse (longest side)
+
+Example:
+If one side = 3 and the other side = 4
+
+Then:
+3² + 4² = 9 + 16 = 25
+c = √25 = 5
+
+So, the hypotenuse = 5
+
+Importance:
+
+Used in geometry problems
+Helps in construction and architecture
+Used to calculate distance
+Important in physics and computer graphics

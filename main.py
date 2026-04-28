@@ -21,7 +21,7 @@ embeddings = CohereEmbeddings(model="embed-english-light-v3.0", cohere_api_key=o
 )
 
 print("💾 Loading Vector DB...")
-if(os.path.exists("./my_db")):  
+if os.path.exists("./my_db"):  
     vectorstore = Chroma(persist_directory="./my_db", embedding_function=embeddings)
     print("✅ Loaded existing DB!")
 else:
@@ -42,15 +42,25 @@ print("🚀 Server Ready!\n")
 # Request model
 class Question(BaseModel):
     question: str
+    session_id: str = "default"
 
 # Health check endpoint
 @app.get("/")
 async def root():
     return {"status": "Manish Portfolio AI is running! 🚀"}
 
+conversation_sessions = {}
+
 # Main AI endpoint
 @app.post("/ask")
 async def ask(body: Question):
+
+    # Get or create session history
+    if body.session_id not in conversation_sessions:
+        conversation_sessions[body.session_id] = []
+
+    history = conversation_sessions[body.session_id]
+
     # Find relevant chunks
     relevant_chunks = vectorstore.similarity_search(body.question, k=5)
 
@@ -69,12 +79,29 @@ async def ask(body: Question):
             CONTEXT:
             {context}
         """),
-        HumanMessage(content=body.question)
     ]
 
+    # Add past memory
+    messages += history[-6:]
+
+    messages.append(HumanMessage(content=body.question))
+
     response = llm.invoke(messages)
+
+    # Save to history
+    history.append(HumanMessage(content=body.question))
+    history.append(response)
+
+    # Keep only last 6 messages
+    conversation_sessions[body.session_id] = history[-6:]
 
     return {
         "status": "success",
         "answer": response.content
     }
+
+@app.delete("/clear/{session_id}")
+async def clear_session(session_id: str):
+    if session_id in conversation_sessions:
+        del conversation_sessions[session_id]
+    return {"status": "Session cleared!"}
