@@ -210,7 +210,7 @@ async def ask(body: Question, request: Request):
                 "my instructions. I can only answer "
                 "questions about Manish Kumar Agrahari's portfolio."
             ),
-            "status": "blocked",
+            "status": "success",
             "reason": "prompt_injection"
         }
 
@@ -221,7 +221,7 @@ async def ask(body: Question, request: Request):
                 "I am only here to help with questions "
                 "about Manish's portfolio."
             ),
-            "status": "blocked",
+            "status": "success",
             "reason": "harmful_content"
         }
 
@@ -231,7 +231,7 @@ async def ask(body: Question, request: Request):
                 "Your question is too long. "
                 "Please keep it under 500 characters."
             ),
-            "status": "blocked",
+            "status": "success",
             "reason": "too_long"
         }
 
