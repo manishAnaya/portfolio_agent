@@ -10,6 +10,7 @@ from langchain_cohere.embeddings import CohereEmbeddings
 from langchain_chroma.vectorstores import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
+from llm_judge import judge_input
 
 # Load environment variables from .env file
 load_dotenv()
@@ -233,6 +234,19 @@ async def ask(body: Question, request: Request):
             ),
             "status": "success",
             "reason": "too_long"
+        }
+    
+    judge_result = judge_input(body.question)
+
+    if judge_result["status"] == "blocked":
+        return {
+            "answer": (
+                f"I cannot answer that. "
+                f"{judge_result['reason']}. "
+                "I only help with Manish's portfolio questions."
+            ),
+            "status": "success",
+            "reason": judge_result["reason"]
         }
 
     # Create new session if not exists
