@@ -1,0 +1,322 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "Who is Manish Kumar Agrahari?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish Kumar Agrahari is a Flutter developer with 5+ years of experience in shipping cross-platform mobile applications across various domains, including fintech, edtech, e-commerce, and enterprise. He is currently working at Finva Tech Pvt Ltd in Bengaluru, building AI-powered products and upskilling in Generative AI."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What is Manish's current job?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish Kumar Agrahari's current job is as a Senior Flutter Developer / Software Engineer at Finva Tech Pvt Ltd in Bengaluru, Karnataka, India."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "How many years of experience does Manish have?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish Kumar Agrahari has 5+ years of experience as a Flutter developer."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What is Manish's tech stack?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish's tech stack includes:\n\n1. Mobile Development: Flutter, Dart, Android, iOS, Cross-Platform Development\n2. State Management: Riverpod, Provider, BLoC, GetX\n3. Architecture: Clean Architecture, MVVM, Repository Pattern\n4. Backend and APIs: REST APIs, Token-based Auth, Third-party API Integration\n5. Database: Firebase, MySQL, Firestore, Local Storage\n6. UI/UX: Material Design, Custom Animations, Pixel-perfect UI, Figma\n7. AI and GenAI Learning: LangChain, RAG, AI Agents, LangGraph, Generative AI, LLMs\n8. Tools: Git, GitHub, Vercel, CI/CD, Google Play Store, App Store"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What projects has Manish built?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish has built the following projects: \n\n1. AI Chatbot Platform\n2. Portfolio and Risk Management System\n3. Recruitment and Career Platform\n4. HR and Payroll Management App\n5. EdTech Tutor Discovery Platform\n6. Auto Parts E-Commerce App\n\nAdditionally, he has shipped 10+ production apps across various domains, including fintech, edtech, e-commerce, and enterprise, during his work experience at Finva Tech Pvt Ltd, Act T Connect, and IBigDo Technologies."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "Tell me about AI Chatbot Platform project"
+      },
+      {
+        "role": "assistant",
+        "content": "The AI Chatbot Platform is a featured project of Manish Kumar Agrahari. It's an enterprise-grade AI chatbot app with the following features:\n\n* Multi-workspace support\n* Customizable prompts\n* Conversation history\n* Source citation fetching\n\nThe project was built using the following tech stack:\n\n* Flutter\n* Dart\n* REST API\n* AI Integration\n* Riverpod\n* Token Auth\n\nThe app is available on both the Play Store (play.google.com/store/apps/details?id=com.finvatech.chatbot) and the App Store (apps.apple.com/in/app/cubebot-pro/id6593685926)."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What companies has Manish worked at?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish Kumar Agrahari has worked at the following companies:\n\n1. Finva Tech Pvt Ltd\n2. Act T Connect\n3. IBigDo Technologies"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What is Manish's education background?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish Kumar Agrahari has the following education background:\n\n1. Bachelor of Technology (B.Tech) from SHIATS Prayagraj, completed in 2015 with a score of 80%.\n2. Intermediate 12th from DALIMSS Varanasi, completed in 2011 with a score of 67%.\n3. High School 10th from Swamy Satyanand SHS Vidyalaya Obra, completed in 2009 with a score of 73%."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "Is Manish open to work?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Manish is open to exciting Flutter development opportunities, especially roles involving AI-powered mobile applications. He is also open to freelance collaborations, technical mentoring, and contributing to innovative startups in fintech, edtech, or AI space."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "How can I contact Manish?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can contact Manish through the following channels:\n\n1. Email: manish.ag555@gmail.com\n2. Phone: +91 70070 33600\n3. LinkedIn: linkedin.com/in/manish-kumar-agrahari-18361a177"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What AI skills does Manish have?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish has the following AI skills:\n\n1. LangChain\n2. RAG (Retrieve, Augment, Generate)\n3. AI Agents\n4. LangGraph\n5. Generative AI\n6. LLMs (Large Language Models)\n\nHe also has certifications in:\n\n1. Generative AI from GUVI\n2. AI/ML from Scaler\n3. AI Engineering from OutSkill\n4. GenAI for Developers (LangChain, RAG, Agents) - currently in progress"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What state management does Manish know?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish knows the following state management techniques: \n\n1. Riverpod\n2. Provider\n3. BLoC\n4. GetX"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What is Manish's LinkedIn?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish Kumar Agrahari's LinkedIn profile is linkedin.com/in/manish-kumar-agrahari-18361a177."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What certifications does Manish have?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish has the following AI certifications:\n\n1. Generative AI Certification from GUVI - Completed\n2. AI/ML Course from Scaler - Completed\n3. AI Engineering from OutSkill - Completed\n4. GenAI for Developers (LangChain, RAG, Agents) - In Progress"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "Where is Manish located?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish Kumar Agrahari is located in Bengaluru, Karnataka, India."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What is Manish's GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish's GitHub is github.com/manishAnaya."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "Tell me about Portfolio Risk Management project"
+      },
+      {
+        "role": "assistant",
+        "content": "The Portfolio and Risk Management System is a configurable fintech app developed by Manish Kumar Agrahari. It's a featured project that provides real-time portfolio tracking, order management, and risk analytics for asset managers, hedge funds, and family offices. The app also includes MiFID/FINMA/UCITS compliance workflows. \n\nThe tech stack used for this project includes Flutter, Dart, REST API, Riverpod, and data visualization. The app is available on the Play Store at play.google.com/store/apps/details?id=com.finvatech.cubepms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What is Manish's portfolio website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish's portfolio website is manish-portfolio-lake-delta.vercel.app."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "What domains has Manish worked in?"
+      },
+      {
+        "role": "assistant",
+        "content": "Manish Kumar Agrahari has worked in the following domains: \n\n1. Fintech\n2. Edtech\n3. E-commerce\n4. Enterprise \n5. Recruitment/HR"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional AI assistant for Manish Kumar Agrahari's portfolio. Answer questions about his experience, skills, projects and background professionally and accurately."
+      },
+      {
+        "role": "user",
+        "content": "Is Manish good at Flutter?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Manish Kumar Agrahari is a skilled Flutter developer with 5+ years of experience in shipping cross-platform mobile applications using Flutter. He has worked on numerous projects and has expertise in various aspects of Flutter development, including Dart, cross-platform development, and state management."
+      }
+    ]
+  }
+]
