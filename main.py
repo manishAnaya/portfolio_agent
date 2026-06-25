@@ -187,7 +187,7 @@ class Question(BaseModel):
     session_id: str = "default"
 
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 async def root():
     return {
         "status": "Manish Portfolio AI is running! 🚀"
